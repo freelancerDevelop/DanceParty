@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/scenes/DanceGame.unity
     guid: 351ed156f6ed94bcaa5f6950cefcb57c
+  - enabled: 1
+    path: Assets/scenes/GameV1.unity
+    guid: 4f42c52755717429bb52bb1a082bd234

@@ -25,7 +25,7 @@ public class gameController : MonoBehaviour {
 	}
 
 	public void playGame() {
-		UnityEngine.SceneManagement.SceneManager.LoadScene("DanceGame");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("GameV1");
 	}
 
 	public void quit() {

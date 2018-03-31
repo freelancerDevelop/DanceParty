@@ -29,12 +29,12 @@ public class pointButton : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Translate(speed*-1,0f,0f);
+		// transform.Translate(speed*-1,0f,0f);
 	}
 	
 	void onTaskClicked() {
-		spawnerScript.instance.makeMove(move);
-		spawnerScript.instance.AddScore(point);
+		// spawnerScript.instance.makeMove(move);
+		// spawnerScript.instance.AddScore(point);
 		
 	}
 	

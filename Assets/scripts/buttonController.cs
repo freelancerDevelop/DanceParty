@@ -29,6 +29,6 @@ public class buttonController : MonoBehaviour {
 	}
 
 	public void reset() {
-		UnityEngine.SceneManagement.SceneManager.LoadScene("DanceGame");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("GameV1");
 	}
 }
