@@ -12,7 +12,10 @@ public class gameController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		anim = HSPanel.GetComponent<Animator>();
-		gameOver();
+		// PlayerPrefs.SetString("HighScore","0");
+		if(!PlayerPrefs.HasKey("HighScore")) {
+			PlayerPrefs.SetString("HighScore","0");
+		}
 		getHighScore();
 	}
 	
@@ -38,7 +41,7 @@ public class gameController : MonoBehaviour {
 	}
 
 	public void gameOver() {
-		PlayerPrefs.SetString("HighScore","12345");
+		PlayerPrefs.SetString("HighScore","0");
 	}
 
 	private void getHighScore() {

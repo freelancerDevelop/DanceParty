@@ -67,8 +67,11 @@
      <Compile Include="Assets\SamplesResources\SceneAssets\UserDefinedTargets\Scripts\UDTEventHandler.cs" />
      <Compile Include="Assets\SamplesResources\SceneAssets\UserDefinedTargets\Scripts\UDTSettings.cs" />
      <Compile Include="Assets\scripts\buttonController.cs" />
+     <Compile Include="Assets\scripts\destroyBtn.cs" />
      <Compile Include="Assets\scripts\gameController.cs" />
      <Compile Include="Assets\scripts\grannyController.cs" />
+     <Compile Include="Assets\scripts\pointButton.cs" />
+     <Compile Include="Assets\scripts\spawnerScript.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
